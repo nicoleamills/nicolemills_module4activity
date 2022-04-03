@@ -12,6 +12,10 @@ namespace nicolemills_module4activity
 {
     public partial class Form1 : Form
     {
+        // dorm pricing and meal plan prices in arrays
+        int[] dormFees = {1500, 1600, 1800, 2500};
+        int[] mealFees = {600, 1200, 1700};
+
         public Form1()
         {
             InitializeComponent();
