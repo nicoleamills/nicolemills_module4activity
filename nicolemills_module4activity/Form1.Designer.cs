@@ -39,6 +39,11 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Allen Hall $1,500 per semester",
+            "Pike Hall $1,600 per semester",
+            "Farthing Hall $1,800 per semester",
+            "University Suites $2,500 per semester"});
             this.comboBox1.Location = new System.Drawing.Point(285, 157);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(223, 21);
@@ -67,6 +72,10 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "7 meals per week $ 600 per semester",
+            "14 meals per week $1,200 per semester",
+            "Unlimited meals $1,700 per semester"});
             this.comboBox2.Location = new System.Drawing.Point(285, 254);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(223, 21);
