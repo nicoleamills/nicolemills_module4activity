@@ -41,5 +41,13 @@ namespace nicolemills_module4activity
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // combines the selections and adds totals depending on fee cost in array
+            int totalCost = dormFees[comboBox1.SelectedIndex] + mealFees[comboBox2.SelectedIndex];
+            Form2 f2 = new Form2(totalCost); 
+            f2.Show();
+        }
     }
 }
