@@ -33,6 +33,12 @@ namespace nicolemills_module4activity
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            comboBox1.SelectedIndex = 0;
+            comboBox2.SelectedIndex = 0;
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }
